@@ -1,0 +1,718 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 5rem;
+    background-color: white;
+    color: black;
+}
+
+
+
+.container{
+    
+    height: 100vh;
+    padding: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+ul{
+    list-style:none;
+    display: flex;
+    align-self: center;
+    width: 35%;
+    justify-content: space-between;
+    
+    font-family: sans-serif;
+}
+
+button{
+    width: 10rem;
+    height: 2.4rem;
+    background-color:#0c6d50;
+    border-radius: 0.2rem;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#033525;
+}
+
+.question{
+    font-size:3rem;
+    font-weight: bolder;
+   
+}
+
+h1{
+    color: white;
+    display: flex;
+    margin: 0;
+    width: 43%;
+    font-family: sans-serif Verdana, Geneva, Tahoma, sans-serif;
+    font-size:4rem;
+}
+h5{
+    color: rgb(138, 138, 138);
+    width: 40%;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    font-size: .9rem;
+}
+
+.coffee{
+    font-size: 1.5rem;
+    align-self: center;
+    color: black;
+}
+
+.plan{
+    background-image: url(./picture/ad2088cca4cce931757c0b0a26bc1b73.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    border-radius: .4rem;
+    height:30rem;
+}
+
+
+.overlay{
+    height: 100%;
+    border-radius: .4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+}
+
+.heroContentBox{
+    padding-left: 3rem;
+}
+
+.collectionText{
+    font-size: 10rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(184, 178, 178, 0.863);
+    margin: 1rem 0;
+}
+
+.packs{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.boxImage{
+    height: 50%;
+    width: 70%;
+    margin: auto;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    
+}
+
+.box h5{
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: auto;
+    width: 100%;
+    text-align:center ;
+    color: black;
+    
+}
+
+.box p{
+    color: #474646;
+    font-size: .9rem;
+    text-align: center;
+    
+}
+
+.About{
+    
+    background-color: #121212;
+    width: 100%;
+    height: 25rem;
+    border-radius: .4rem;
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+    font-family: serif;
+    justify-content: center;
+}
+
+.boxes{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding-left: 12rem;
+    width: 55rem;
+   
+}
+
+.why{
+   
+    color: rgb(187, 183, 183);
+    padding-left: 23rem;
+    line-height: 1.5rem;
+    width: 33rem;
+}
+
+.greenboxa {
+    border-radius: .2rem;
+    position: absolute;
+    top: 87rem;
+    right: 58rem;
+    width: 20rem;
+    height: 20rem;
+    background-color:#0c6d50;
+}
+
+.greenboxb {
+    position: absolute;
+    top: 87rem;
+    left: 32.3rem;
+    width: 20rem;
+    height: 20rem;
+    background-color:#0c6d50;
+    border-radius: .2rem;
+}
+
+.greenboxc {
+    position: absolute;
+    top: 87rem;
+    left: 58rem;
+    width: 20rem;
+    height: 20rem;
+    background-color:#0c6d50;
+    border-radius: .2rem;
+}
+
+.images{
+    padding-left: 7.5rem;
+    padding-top: 3rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.describe{
+    text-align: center;
+    color: white;
+}
+.head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: white;
+    text-align: center;
+    width: 20rem;
+}
+footer{
+    display: flex;
+    background-color: #1f1d1d;
+    
+}
+
+/* .last{
+    padding: 0;
+    margin: 0;
+   
+} */
+
+h3{
+    font-family: serif;
+    font-size: 1.3rem;
+    
+    padding-top: 20rem;
+    padding-left: 4.3rem;
+}
+.coffeeSnd{
+    font-size: 1.5rem;
+    padding: 1rem 6rem;
+}
+.lastitem{
+    color: #9e9999;
+    
+}
+.logo{
+    padding: 1rem 0rem;
+    color: white;
+    width: 3rem;
+    height: 2rem;
+}
+
+.choice{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.thethree{
+    display: flex;
+    justify-content: space-between;
+    width: 5rem;
+    padding-left:4.3rem;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+
+.numbers{
+    color:rgba(247, 183, 128, 0.842);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.thehead{
+    font-family: serif;
+    width: 8rem;
+}
+.explain{
+    width: 20rem;
+}
+
+
+.second{
+    padding-left: 6rem;
+}
+
+.third{
+    padding-left: 7rem;
+}
+
+
+.click{
+    position: absolute;
+    top: 150rem;
+    right: 68rem;
+    background-color: #0c6d50;
+    color: white;
+    font-family: serif;
+}
+#Dark{
+    position: absolute;
+    top: .5rem;
+    left: 77.8rem;
+    background-image: url(./picture/moon-line.svg);
+    background-repeat: no-repeat;
+    background-color:white ;
+    width: 2rem;
+    height: 2rem;
+}
+
+#Light{
+    position: absolute;
+    top: .5rem;
+    left: 80rem;
+    background-image: url(./picture/sun-fill.svg);
+    background-repeat: no-repeat;
+    background-color:white ;
+    width: 2rem;
+    height: 2rem;
+}
+
+@media screen and (max-width:425px) {
+    body{
+        
+        width: 110%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-bottom: 0rem;
+        background-color: white;
+        color: black;
+    }
+    
+    .container{
+        width: 50rem;
+        height: 50%;
+        padding: .5rem;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        
+    }
+    
+    ul{
+        list-style:none;
+        display: flex;
+        width: 30rem;
+        padding-right: 24.3rem;
+        font-size: .4rem;
+        margin-right: 1rem;
+        color:black;
+        font-family: sans-serif;
+    }
+    
+    button{
+        width: 4rem;
+        height: 1.2rem;
+        background-color:#0c6d50;
+        border-radius: 0.2rem;
+        outline: none;
+        color: white;
+        border: none;
+        font-size: .4rem;
+        font-weight: 600;
+        font-family: serif;
+        cursor: pointer;
+        margin-bottom: 1rem;
+    }
+    
+    button:hover{
+        background-color:#033525;
+    }
+    
+    .question{
+        font-size:.8rem;
+        font-weight: bolder;
+        
+    }
+    
+    h1{
+        color: white;
+        margin: 0;
+        margin-top: .5rem;
+        width: 40%;
+        font-family: sans-serif Verdana, Geneva, Tahoma, sans-serif;
+        font-size:1rem;
+    }
+    h5{
+        color: rgb(138, 138, 138);
+        width: 70%;
+        line-height: 1rem;
+        font-family: sans-serif;
+        font-size: .6rem;
+    }
+    
+    .coffee{
+        color: #121212;
+        font-size: .7rem;
+        align-self: center;
+        
+    }
+    
+    .plan{
+        background-image: url(./picture/ad2088cca4cce931757c0b0a26bc1b73.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        
+        border-radius: .4rem;
+        height:50%;
+    }
+    
+    
+    .overlay{
+        height: 100%;
+        border-radius: .4rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: rgba(0,0,0,.8);
+    }
+    
+    .heroContentBox{
+        padding-left: 1.5rem;
+        width: 100rem;
+        font-size:smaller;
+    }
+    
+    .collectionText{
+        font-size: 3rem;
+        padding-right: 25rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(184, 178, 178, 0.863);
+        
+    }
+    
+    .packs{
+        display: block;
+        
+        justify-content: space-between;
+        
+    }
+    
+    .boxImage{
+        height: 2rem;
+        width: 3rem;
+        margin: auto;
+    }
+    
+    .box{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .box h5{
+        font-weight: 700;
+        font-size: .7rem;
+       
+        
+        text-align:center ;
+        color: black;
+        
+    }
+    
+    .box p{
+        color: #474646;
+        font-size: .6rem;
+        text-align: center;
+        
+    }
+    
+    .About{
+        
+        background-color: #121212;
+        height: 10rem;
+        width: 25rem;
+        border-radius: .4rem;
+        color: white;
+        padding-top: 1.5rem;
+        
+        font-family: serif;
+        
+    }
+    
+    .boxes{
+        display: flex;
+        
+        
+        
+        
+       
+    }
+    
+    .why{
+        padding-left: 5rem;
+        color: rgb(187, 183, 183);
+        width: 15rem;
+        line-height: .7rem;
+        
+        font-size: .5rem;
+    }
+    
+    .greenboxa {
+        border-radius: .2rem;
+        position: absolute;
+        top: 55rem;
+        right: 16.7rem;
+        width: 6rem;
+        height: 6rem;
+        background-color:#0c6d50;
+        
+    }
+    
+    .greenboxb {
+        position: absolute;
+        top: 55rem;
+        left: 11.5rem;
+        width: 6rem;
+        height: 6rem;
+        background-color:#0c6d50;
+        border-radius: .2rem;
+    }
+    
+    .greenboxc {
+        position: absolute;
+        top: 55rem;
+        left: 20rem;
+        width: 6rem;
+        height: 6rem;
+        background-color:#0c6d50;
+        border-radius: .2rem;
+    }
+    
+    .images{
+        right:1.5rem ;
+        margin-top: 0rem;
+        position: absolute;
+        top: -2.5rem;
+        width: 3rem;
+        height: 2rem;
+        z-index: 1;
+    }
+    
+    
+    .describe{
+        position: absolute;
+        top: 0rem;
+        text-align: center;
+        padding-left: .3rem;
+        color:white;
+        width: 5.5rem;
+        font-size: .4rem;
+        margin-top: 4rem;
+        font-weight: lighter;
+    }
+    .head{
+        position: absolute;
+        margin-top: 3rem;
+        right: 0rem;
+        width: 6rem;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:0.5rem;
+        color:white;
+        z-index: 1;
+        
+    }
+    footer{
+        display: flex;
+        border-style: solid;
+        background-color: white;
+        height: 2.5rem;
+        padding: 0;
+        margin: 0;
+        padding-left: 2rem;
+    }
+    
+    .last{
+        padding: 0;
+        margin: 0;
+        padding-bottom: 3rem;
+        padding-left: 2rem;
+        height: .2rem;
+        width: 25rem;
+        padding-top: 5rem;
+    }
+    
+    h3{
+        font-family: serif;
+        font-size: .7rem;
+        color: #474646;
+        padding-top: 6rem;
+        padding-left: 1.2rem;
+        margin: 0%;
+        
+        padding-right: 0;
+        
+    }
+    .coffeeSnd{
+        color: black;
+        font-size: .5rem;
+        margin: 0;
+        padding: 0;
+        padding-top: .8rem;
+    }
+    .lastitem{
+        color:black;
+        font-size: .3rem;
+        width: 10rem;
+        padding: 0;
+        margin: 0;
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+    .logo{
+        padding: 0;
+        color: white;
+        margin: 0;
+        margin-left: .1rem;
+        height: .8rem;
+        width: .6rem;
+    }
+    .logos{
+        display:flex ;
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+        margin-left: 0rem;
+        margin-top: .7rem;
+        width: -15rem;
+    }
+    
+    .choice{
+        display: flex;
+        justify-content: space-between;
+        width: 1rem;
+    }
+    
+    
+    
+    .thethree{
+        display: flex;
+        justify-content: space-between;
+        
+        padding-left:1.2rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    
+    .numbers{
+        color:rgba(247, 183, 128, 0.842);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.6rem;
+    }
+    .thehead{
+        font-family: serif;
+        font-size: .9rem;
+        width: 5rem;
+    }
+    .explain{
+        width: 6rem;
+        font-size: .5rem;
+    }
+    
+    
+    .second{
+        padding-left: 2.5rem;
+    }
+    
+    .third{
+        padding-left: 2.5rem;
+    }
+    
+    
+    .click{
+        height: 2rem;
+        
+        background-color: #0c6d50;
+        color: white;
+        font-family: serif;
+    }
+
+    #Dark{
+        position: absolute;
+        top: .1rem;
+        left: 24.5rem;
+        
+        width: .1rem;
+        height: .5rem;
+    }
+    
+    #Light{
+        position: absolute;
+        top: .1rem;
+        left: 25rem;
+        
+        width: .1rem;
+        height: .5rem;
+    }
+  } 
