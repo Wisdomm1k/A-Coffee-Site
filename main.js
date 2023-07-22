@@ -9,6 +9,7 @@ let greenboxc = document.getElementsByClassName('greenboxc')
 let click = document.getElementsByClassName('click')
 let plan = document.getElementsByClassName('plan')
 let text = document.querySelector('ul')
+let word = document.getElementsByTagName('p')
 
 dark.addEventListener('click', function(){
    body.style.backgroundColor = 'black'
@@ -26,6 +27,7 @@ dark.addEventListener('click', function(){
    click.style.color = 'black'
    plan.style.backgroundColor = 'grey'
    text.style.color = 'white'
+   word.style.color = 'white'
 });
 light.addEventListener('click', function(){
     body.style.backgroundColor = 'white'
